@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import { getDueCards, updateCardAfterReview } from '../logic/srs'
 
-export default function StudySession({ deck, cardStates, onBack, onUpdateCard, onMarkWrong, initialCards }) {
+export default function StudySession({ deck, cardStates, onBack, onUpdateCard, onMarkWrong, onResetDeck, initialCards }) {
   const [cards] = useState(() =>
     initialCards ?? getDueCards(deck.cards.map(c => ({ ...c, ...cardStates[c.id] })))
   )
@@ -30,9 +30,35 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
       onUpdateCard={onUpdateCard} onMarkWrong={onMarkWrong} initialCards={retrySession} />
   )
 
+  if (total === 0) {
+    return (
+      <div className="session-done">
+        <button className="btn-back" onClick={onBack}>← Powrót</button>
+        <div className="done-card">
+          <div className="done-emoji">✅</div>
+          <h2 className="done-title">Brak kart do powtórki</h2>
+          <p className="done-sub">{deck.name}</p>
+          <p className="done-detail">Masz teraz 100% opanowane. Mozesz wrocic do listy tematow albo zresetowac ten temat i powtorzyc od nowa.</p>
+          <button className="btn-study done-restart" onClick={onBack}>Wroc do listy tematow</button>
+          {typeof onResetDeck === 'function' && (
+            <button
+              className="btn-retry"
+              onClick={() => {
+                onResetDeck(deck.id)
+                onBack()
+              }}
+            >
+              Zresetuj temat i powtorz
+            </button>
+          )}
+        </div>
+      </div>
+    )
+  }
+
   if (done) {
     const correct = total - wrongCards.length
-    const pct = Math.round((correct / total) * 100)
+    const pct = total > 0 ? Math.round((correct / total) * 100) : 100
     return (
       <div className="session-done">
         <button className="btn-back" onClick={onBack}>← Powrót</button>
