@@ -56,7 +56,8 @@ export default function App() {
         {view.mode === 'study' && view.deck && view.studyMode === 'srs' && (
           <StudySession deck={view.deck} cardStates={cardStates}
             onBack={() => setView({ mode: 'home', deck: null, studyMode: null })}
-            onUpdateCard={handleUpdateCard} onMarkWrong={handleRescheduleCard} />
+            onUpdateCard={handleUpdateCard} onMarkWrong={handleRescheduleCard}
+            onResetDeck={handleResetDeck} />
         )}
         {view.mode === 'study' && view.deck && view.studyMode === 'test' && (
           <TestSession deck={view.deck}
