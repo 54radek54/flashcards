@@ -31,9 +31,14 @@ export function buildYearDeck(sourceDecks, year, config = {}) {
     name = `Rok ${year}`,
     emoji = '📚',
     color = '#6366f1',
+    session,
   } = config
 
-  const yearDecks = sourceDecks.filter((deck) => deck.year === year)
+  const yearDecks = sourceDecks.filter((deck) => {
+    if (deck.year !== year) return false
+    if (!session) return true
+    return deck.session === session
+  })
   const cards = yearDecks.flatMap((deck) =>
     deck.cards.map((card) => ({
       ...card,
@@ -41,12 +46,14 @@ export function buildYearDeck(sourceDecks, year, config = {}) {
       sourceDeckId: deck.id,
       sourceDeckName: deck.name,
       year,
+      session: deck.session,
     }))
   )
 
   return {
     id,
     year,
+    session,
     name,
     emoji,
     color,
