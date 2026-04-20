@@ -1,5 +1,5 @@
-import React, { useState, useCallback, useEffect } from 'react'
-import { getDueCards, updateCardAfterReview } from '../logic/srs'
+import React, { useState, useCallback } from 'react'
+import { getDueCards } from '../logic/srs'
 
 export default function StudySession({ deck, cardStates, onBack, onUpdateCard, onMarkWrong, onResetDeck, initialCards }) {
   const [cards] = useState(() =>
@@ -11,6 +11,7 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
   const [wrongCards, setWrongCards] = useState([])
   const [done, setDone] = useState(false)
   const [retrySession, setRetrySession] = useState(null)
+  const [selectedOption, setSelectedOption] = useState(null)
 
   const current = cards[index] ?? null
   const total = cards.length
@@ -20,10 +21,23 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
     setAnimDir(wasCorrect ? 'right' : 'left')
     setTimeout(() => {
       wasCorrect ? onUpdateCard(current.id, true) : (onMarkWrong(current.id), setWrongCards(p => [...p, current]))
-      setFlipped(false); setAnimDir(null)
+      setFlipped(false)
+      setSelectedOption(null)
+      setAnimDir(null)
       index + 1 >= total ? setDone(true) : setIndex(i => i + 1)
     }, 300)
   }, [current, index, total, onUpdateCard, onMarkWrong])
+
+  const handlePickOption = useCallback((letter) => {
+    if (!current || flipped) return
+    setSelectedOption(letter)
+    setFlipped(true)
+  }, [current, flipped])
+
+  const handleNextAfterReveal = useCallback(() => {
+    if (!current || !selectedOption) return
+    handleAnswer(selectedOption === current.correct)
+  }, [current, selectedOption, handleAnswer])
 
   if (retrySession) return (
     <StudySession deck={deck} cardStates={cardStates} onBack={() => setRetrySession(null)}
@@ -93,7 +107,12 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
       </div>
       <div className="study-main">
         <p className="study-deck-name">{deck.emoji} {deck.name} · Powtórki</p>
-        <div className={`flashcard-container ${flipped ? 'flipped' : ''} ${animDir ? `swipe-${animDir}` : ''}`} onClick={() => setFlipped(f => !f)}>
+        <div
+          className={`flashcard-container ${flipped ? 'flipped' : ''} ${animDir ? `swipe-${animDir}` : ''}`}
+          onClick={() => {
+            if (!hasOptions) setFlipped(f => !f)
+          }}
+        >
           <div className="flashcard-inner">
             <div className="flashcard-front" style={{ '--deck-color': deck.color }}>
               <p className="card-side-label">PYTANIE</p>
@@ -102,11 +121,24 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
                 <div className="card-options">
                   {current.options.map((text, i) => {
                     const letter = 'ABCD'[i]
-                    return <div key={letter} className="card-option"><span className="option-letter">{letter}</span><span className="option-text">{text}</span></div>
+                    return (
+                      <button
+                        key={letter}
+                        type="button"
+                        className={`card-option card-option-selectable ${selectedOption === letter ? 'option-selected' : ''}`}
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          handlePickOption(letter)
+                        }}
+                      >
+                        <span className="option-letter">{letter}</span>
+                        <span className="option-text">{text}</span>
+                      </button>
+                    )
                   })}
                 </div>
               )}
-              <p className="card-tap-hint">Dotknij, aby zobaczyć odpowiedź</p>
+              <p className="card-tap-hint">{hasOptions ? 'Wybierz odpowiedz A, B, C lub D' : 'Dotknij, aby zobaczyc odpowiedz'}</p>
             </div>
             <div className="flashcard-back" style={{ '--deck-color': deck.color }}>
               <p className="card-side-label">ODPOWIEDŹ</p>
@@ -115,24 +147,42 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
                   {current.options.map((text, i) => {
                     const letter = 'ABCD'[i]
                     const isCorrect = letter === current.correct
+                    const isSelected = letter === selectedOption
                     return (
-                      <div key={letter} className={`card-option ${isCorrect ? 'option-correct' : 'option-wrong'}`}>
+                      <div
+                        key={letter}
+                        className={`card-option ${isCorrect ? 'option-correct' : ''} ${isSelected ? 'option-selected' : ''} ${isSelected && !isCorrect ? 'option-selected-wrong' : ''}`}
+                      >
                         <span className="option-letter">{letter}</span>
-                        {isCorrect && <span className="option-text">{text}</span>}
+                        <span className="option-text">{text}</span>
+                        {isCorrect && <span className="option-marker">Poprawna</span>}
+                        {isSelected && <span className="option-marker option-marker-user">Twoja</span>}
                       </div>
                     )
                   })}
                 </div>
               ) : <p className="card-text">{current.answer}</p>}
-              <p className="card-tap-hint">Oceń swoją odpowiedź</p>
+              <p className="card-tap-hint">{hasOptions ? 'Sprawdz poprawna i swoja odpowiedz, potem przejdz dalej' : 'Ocen swoja odpowiedz'}</p>
             </div>
           </div>
         </div>
-        <div className={`answer-buttons ${flipped ? 'visible' : ''}`}>
-          <button className="btn-answer btn-wrong" onClick={() => handleAnswer(false)}><span className="btn-icon">✗</span><span>Nie wiem</span></button>
-          <button className="btn-answer btn-correct" onClick={() => handleAnswer(true)}><span className="btn-icon">✓</span><span>Wiem!</span></button>
-        </div>
-        {!flipped && <p className="hint-text">Kliknij kartę aby zobaczyć odpowiedź</p>}
+        {hasOptions ? (
+          <button
+            type="button"
+            className="btn-confirm"
+            style={{ '--deck-color': deck.color }}
+            onClick={handleNextAfterReveal}
+            disabled={!flipped || !selectedOption}
+          >
+            Nastepne pytanie
+          </button>
+        ) : (
+          <div className={`answer-buttons ${flipped ? 'visible' : ''}`}>
+            <button className="btn-answer btn-wrong" onClick={() => handleAnswer(false)}><span className="btn-icon">✗</span><span>Nie wiem</span></button>
+            <button className="btn-answer btn-correct" onClick={() => handleAnswer(true)}><span className="btn-icon">✓</span><span>Wiem!</span></button>
+          </div>
+        )}
+        {!flipped && <p className="hint-text">{hasOptions ? 'Szybka powtorka: zaznacz odpowiedz na przodzie karty' : 'Kliknij karte aby zobaczyc odpowiedz'}</p>}
       </div>
     </div>
   )
