@@ -3,6 +3,13 @@ import rawFlashDecks from '../data/flashcards.json'
 
 const PROGRESS_KEY = 'flashcards.progress.v1'
 
+function normalizeSession(value) {
+  const v = String(value ?? '').trim().toLowerCase()
+  if (['spring', 'wiosna', 's'].includes(v)) return 'spring'
+  if (['autumn', 'fall', 'jesien', 'jesień', 'a', 'j'].includes(v)) return 'autumn'
+  return 'spring'
+}
+
 function resolveAnswer(card) {
   if (card.answer) return card.answer
   if (!card.options || !card.correct) return ''
@@ -15,8 +22,9 @@ function normalizeFlashDecks(inputDecks) {
   return decks
     .filter(Boolean)
     .map((deck, deckIndex) => ({
-      id: deck.id ?? `flash-deck-${deckIndex + 1}`,
+      id: deck.id ?? `flash-deck-${deck.year ?? 2018}-${normalizeSession(deck.session)}-${deckIndex + 1}`,
       year: deck.year ?? 2018,
+      session: normalizeSession(deck.session),
       name: deck.name ?? `Fiszki ${deck.year ?? ''}`.trim(),
       emoji: deck.emoji ?? '🃏',
       color: deck.color ?? '#0891b2',
@@ -30,8 +38,21 @@ function normalizeFlashDecks(inputDecks) {
     }))
 }
 
+function normalizeTestDecks(inputDecks) {
+  const decks = Array.isArray(inputDecks) ? inputDecks : [inputDecks]
+  return decks
+    .filter(Boolean)
+    .map((deck, deckIndex) => ({
+      ...deck,
+      id: deck.id ?? `test-deck-${deck.year ?? 2018}-${normalizeSession(deck.session)}-${deckIndex + 1}`,
+      year: deck.year ?? 2018,
+      session: normalizeSession(deck.session),
+      cards: Array.isArray(deck.cards) ? deck.cards : [],
+    }))
+}
+
 export function getDecks() {
-  return rawDecks
+  return normalizeTestDecks(rawDecks)
 }
 
 export function getFlashDecks() {
