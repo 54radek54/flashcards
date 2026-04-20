@@ -4,7 +4,8 @@ import { shuffle } from './helpers'
 const TEST_COUNT = 20
 
 export default function TestSession({ deck, onBack }) {
-  const [questions] = useState(() => shuffle(deck.cards).slice(0, Math.min(TEST_COUNT, deck.cards.length)))
+  const count = deck.testCount ?? TEST_COUNT
+  const [questions] = useState(() => shuffle(deck.cards).slice(0, Math.min(count, deck.cards.length)))
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState(null)
   const [answers, setAnswers] = useState([])
