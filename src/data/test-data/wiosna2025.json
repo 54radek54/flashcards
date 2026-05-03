@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "deck-chirurgia-ogolna",
+    "year": 2025,
+    "session": "spring",
+    "name": "Chirurgia ogólna",
+    "emoji": "🔪",
+    "color": "#0284c7",
+    "cards": [
+      {
+        "id": 1,
+        "question": "Wskaźnikiem ustalania zapotrzebowania na białko, jest:",
+        "options": [
+          "bilans białkowy",
+          "poziom aminokwasów",
+          "bilans azotowy",
+          "indeks masy ciała (BMI)"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 3,
+        "question": "Ryzyku wystąpienia bólu głowy po znieczuleniu zewnątrzoponowym można zapobiegać poprzez:",
+        "options": [
+          "ułożenie w pozycji płaskiej na boku",
+          "ułożenie w pozycji płaskiej z uniesioną głową pod kątem 30 stopni",
+          "ułożenie w pozycji półwysokiej z głową odchyloną na bok",
+          "ułożenie w pozycji półwysokiej z uniesioną głową pod kątem 15 stopni"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 5,
+        "question": "Rany czyste według podziału ran w zależności od ryzyka zakażenia, to:",
+        "options": [
+          "rany po cięciu wykonanym w obrębie tkanki zdrowej, bez otwierania dróg moczowo-płciowych",
+          "rany po cięciu wykonanym w obrębie tkanki zdrowej, z otwarciem dróg moczowo-płciowych",
+          "rany urazowe otwarte, bez otwierania przewodu pokarmowego",
+          "rany po cięciu wykonanym w obrębie tkanki zdrowej z perforacją jelit"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 6,
+        "question": "Leczenie żywieniowe jest przeciwwskazane między innymi w przypadku:",
+        "options": [
+          "kwasicy i hipoksji",
+          "rozległych oparzeń",
+          "ostrego zapalenia trzustki",
+          "urazu wielonarządowego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 7,
+        "question": "Dobowe podstawowe zapotrzebowanie na białko człowieka o masie ciała ok. 70 kg, wynosi:",
+        "options": [
+          "62,5 g",
+          "100 g",
+          "48,5 g",
+          "80 g"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 8,
+        "question": "Przekazanie chorego w oddział macierzysty, po operacji przeprowadzonej w znieczuleniu przewodowym z zastosowaniem blokad nerwów obwodowych wymaga:",
+        "options": [
+          "stałego pooperacyjnego nadzoru przez anestezjologa i chirurga naczyniowego",
+          "wysokiego ułożenia kończyny na podpórce lub szynie",
+          "założenia pończoch uciskowych na kończynę",
+          "zapobiegania obrażeniom kończyny, która pozostaje jeszcze znieczulona"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 9,
+        "question": "Założenie dostępu naczyniowego do żyły głównej, przez który pacjent będzie miał prowadzone żywienie lub każda nieudana próba wprowadzenia cewnika wymaga zawsze:",
+        "options": [
+          "wykonania zdjęcia klatki piersiowej po wcześniejszym podaniu kontrastu",
+          "wykonania badań biochemicznych, układu krzepnięcia oraz badanie RTG klatki piersiowej",
+          "wykonania podstawowych badań laboratoryjnych (morfologia krwi, układ krzepnięcia)",
+          "wykonania zdjęcia klatki piersiowej bez podawania kontrastu"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 10,
+        "question": "Wodniesieniu do leczenia przeciwbólowego po zabiegu operacyjnym osób starszych, prawdziwe jest stwierdzenie:",
+        "options": [
+          "zalecane jest stosowanie morfiny i barbituranów w celu ułatwienia odpoczynku",
+          "w starszym wieku charakterystyczne jest zwiększone odczuwanie bólu",
+          "wrażliwość na leki przeciwbólowe obniża się i skraca ich czas działania",
+          "zaleca się regularne stosowanie małych dawek leków przeciwbólowych, unikanie morfiny i barbituranów"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 11,
+        "question": "Który z wymienionych pierwiastków bierze udział w syntezie kolagenu oraz dostarcza tlen do rany, a jego niedobór może upośledzać jej gojenie?",
+        "options": [
+          "cynk",
+          "żelazo",
+          "potas",
+          "mangan"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 12,
+        "question": "Patologiczny, przetrwały ból po operacji lub po urazie charakteryzuje się:",
+        "options": [
+          "opornością na analgetyki opioidowe i nieopioidowe",
+          "czasem trwania powyżej 3 miesięcy",
+          "utrzymywaniem się, mimo wygojenia tkanek",
+          "wszystkie odpowiedzi są poprawne"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 13,
+        "question": "Pomiar masy ciała i wzrostu wykonuje się przed zabiegiem operacyjnym w celu:",
+        "options": [
+          "oceny stanu odżywienia",
+          "porównania pomiarów przed i po zabiegu",
+          "określenia ubytku masy ciała podczas zabiegu operacyjnego",
+          "obliczenia dawki leków stosowanych podczas zabiegu operacyjnego"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 14,
+        "question": "Niebezpieczeństwo występowania zakrzepicy żył głębokich oraz zatorów płuc u pacjentów w podeszłym wieku po operacji zmniejsza:",
+        "options": [
+          "podawanie heparyny drobnocząsteczkowej 1 raz dziennie",
+          "dokładna diagnostyka przedoperacyjnym",
+          "wczesne uruchomienie pacjenta w okresie pooperacyjnym",
+          "wykonanie zabiegu operacyjnego w trybie planowym"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 15,
+        "question": "Podczas badania fizykalnego brzucha stwierdzasz, że uciśnięcie lewego dolnego kwadrantu brzucha powoduje zwiększenie nasilenia bólu po stronie przeciwnej. Jest to dodatni objaw:",
+        "options": [
+          "Blumberga",
+          "Rowsinga",
+          "Jaworskiego",
+          "Chełmońskiego"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 19,
+        "question": "Ból trzewny (głęboki), jest to tępy ból o trudnym do określenia umiejscowieniu, zwykle w okolicy linii środkowej ciała. Jego umiejscowienie wiąże się z rozwojem embrionalnym przewodu pokarmowego i tworzeniem się jelita. Ból jelita tylnego jest umiejscowiony w okolicy:",
+        "options": [
+          "żołądkowej",
+          "okołopępkowej",
+          "nadłonowej",
+          "podżebrowej prawej"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 20,
+        "question": "Koncepcja TIME stosowana w leczeniu ran o różnej etiologii, polega na:",
+        "options": [
+          "T-usuwaniu martwej tkanki rozpływowej, I-kontroli i ograniczaniu obciążenia bakteryjnego, M-minimalizacji wysięku, zapachu, E-ograniczeniu uszkodzenia skóry wokół rany",
+          "T-minimalizacji wysięku, zapachu, I-usuwaniu martwej tkanki rozpływowej, M-ograniczeniu uszkodzenia skóry wokół rany, E-minimalizacji wysięku, zapachu",
+          "T-kontroli i ograniczaniu obciążenia bakteryjnego, I-usuwaniu martwej tkanki rozpływowej, M-ograniczeniu uszkodzenia skóry wokół rany, E-minimalizacji wysięku, zapachu",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 22,
+        "question": "Rany o dużym ryzyku zakażenia, to rany:",
+        "options": [
+          "kąsane, postrzałowe",
+          "świeże urazowe",
+          "po operacji układu moczowo-płciowego",
+          "po operacji z otwarciem przewodu pokarmowego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 23,
+        "question": "Wykonanie biopsji i identyfikacja pierwszych wartowniczych węzłów chłonnych u chorych z rakiem gruczołu piersiowego ma na celu:",
+        "options": [
+          "ocenę zajęcia przez przerzuty pachowych węzłów chłonnych",
+          "ocenę skuteczności wykonanej mastektomii",
+          "ocenę ryzyka nawrotu nowotworu",
+          "ocenę zaawansowania obrzęku limfatycznego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 24,
+        "question": "Objawami wskazującymi na możliwość wystąpienia krwotoku w 1 godzinie po zabiegu operacyjnym usunięcia pęcherzyka żółciowego są:",
+        "options": [
+          "obniżone RR, tętno prawidłowe, śladowe ilości krwi w drenażu, opatrunek przesiąknięty treścią surowiczo–krwistą",
+          "podwyższone RR, przyspieszone tętno słabo wyczuwalne, 50 ml krwi w drenażu",
+          "obniżone RR, przyspieszone tętno słabo wyczuwalne, 100 ml krwi w drenażu",
+          "podwyższone RR, tętno nitkowate, opatrunek przesiąknięty krwią"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 26,
+        "question": "Który z objawów raka przełyku wskazuje na dalekie zaawansowanie nowotworu:",
+        "options": [
+          "dysfagia",
+          "wymioty",
+          "ubytek masy ciała",
+          "chrypka"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 27,
+        "question": "Wyczuwalne palpacyjne trzeszczenie tkanek jest późnym objawem:",
+        "options": [
+          "zgorzeli gazowej",
+          "tężca",
+          "ropowicy kończyn",
+          "zastrzału podskórnego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 28,
+        "question": "Jaka pozycja unieruchomienia pacjenta najbardziej naraża go na powstanie odleżyn?",
+        "options": [
+          "leżąca na plecach płasko",
+          "półwysoka",
+          "siedząca",
+          "leżąca z kończynami dolnymi uniesionymi o 20-30 stopni do góry"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 29,
+        "question": "Wokresie okołooperacyjnym ocena żywotności stomii jest istotnym elementem pielęgnowania pacjenta, prawidłowa stomia powinna być:",
+        "options": [
+          "różowa, wilgotna, z obrzękniętą błoną śluzową",
+          "czerwona, okrągła, jak „pąk róży”, wyraźnie wystająca ponad powierzchnię skóry",
+          "początkowa blada, później czerwona, nie obrzęknięta",
+          "czerwona, nie powinna wystawać ponad powierzchnię skóry"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 31,
+        "question": "Stopień T1N1M0 zaawansowania nowotworu sutka wg skali stopnia zaawansowania nowotworu TNM (T- tumo-guz; N nodi lymphatici=-węzły chłonne; M-metestasis-przerzuty) oznacza:",
+        "options": [
+          "pierwszy stopień zaawansowania nowotworu, w którym guz ma średnicę do 2 cm, węzły chłonne są niepowiększone, nie stwierdza się odległych przerzutów",
+          "pierwszy stopień zaawansowania nowotworu, w którym guz ma średnicę do 5 cm, węzły chłonne są niepowiększone, nie stwierdza się odległych przerzutów",
+          "drugi stopień zaawansowania nowotworu, w którym guz ma średnicę do 5 cm, powiększone i nieruchome węzły chłonne, brak odległych przerzutów",
+          "drugi stopień zaawansowania nowotworu, w którym guz ma średnicę do 5 cm, powiększone ale ruchome węzły chłonne, brak odległych przerzutów"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 32,
+        "question": "Na zdjęciu przeglądowym jamy brzusznej obecne jest powietrze pod kopułami przepony, co świadczy o:",
+        "options": [
+          "niedrożności jelita cienkiego",
+          "niedrożności jelita grubego",
+          "marskości wątroby",
+          "przedziurawieniu przewodu pokarmowego"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 33,
+        "question": "Triada objawów charakterystyczna dla przełomu tarczycowego, to:",
+        "options": [
+          "wzrost temperatury ciała >39 st. C, tachypnoë, bradykardia",
+          "wzrost temperatury ciała >39 st. C, przyśpieszenie czynności serca, pobudzenie psychoruchowe",
+          "zaburzenia świadomości, spadek ciśnienia tętniczego krwi, temperatura ciała nie przekracza 38 st. C",
+          "zaburzenia świadomości, bradykardia, wymioty"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 34,
+        "question": "Pielęgniarka w czasie zmiany opatrunku odleżyny zaobserwowała zajęcie skóry właściwej i obnażenie podskórnej tkanki tłuszczowej. Według skali Torrance’a, jest to odleżyna stopnia:",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 35,
+        "question": "Na podstawie klasyfikacji kolorowej, jaki kolor przyzna pielęgniarka ranie z martwicą rozpływową z wysiękiem?",
+        "options": [
+          "czarny",
+          "czerwony",
+          "żółty",
+          "różowy"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 36,
+        "question": "Wostrym zapaleniu trzustki występuje zasinienie i marmurkowy wygląd skóry w okolicy pępka jest to objaw:",
+        "options": [
+          "Cullena",
+          "Loeflera",
+          "Babińskiego",
+          "Grey- Turnera"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 37,
+        "question": "Wzespole krótkiego jelita w wyniku usunięcia jelita krętego dochodzi do trwałych zaburzeń:",
+        "options": [
+          "wchłaniania wody, witaminy C i D",
+          "wchłaniania wody i białek",
+          "wchłaniania soli żółciowych, witaminy B12, witaminy K",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 38,
+        "question": "Do właściwych metod profilaktyki odleżyn należy:",
+        "options": [
+          "codzienna kontrola glukozy we krwi włośniczkowej",
+          "ograniczanie ucisku na tkanki chorego",
+          "stosowanie hipotermii",
+          "codzienna zmiana bielizny pościelowej"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 39,
+        "question": "Pacjenta z nowotworem żołądka do wykonania gastroskopii układamy na:",
+        "options": [
+          "prawym boku",
+          "lewym boku",
+          "ułożenie nie ma znaczenia",
+          "wznak"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 40,
+        "question": "Badanie palpacyjne piersi u chorej, należy przeprowadzić w pozycjach:",
+        "options": [
+          "tylko stojącej",
+          "siedzącej lub stojącej",
+          "leżącej na prawym a następnie na lewym boku",
+          "siedzącej lub stojącej i leżącej na plecach"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 41,
+        "question": "Wczesne i uporczywe występowanie wymiotów jest charakterystyczne dla:",
+        "options": [
+          "wysokiej niedrożności mechanicznej jelita cienkiego",
+          "niskiej niedrożności mechanicznej jelita cienkiego",
+          "niedrożności porażennej",
+          "wysokiej i niskiej niedrożności mechanicznej jelita grubego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 42,
+        "question": "Uchorych odżywianych dojelitowo z obniżoną odpornością, stosuje się diety wzbogacone w:",
+        "options": [
+          "argininę i/lub glutaminę, kwasy tłuszczowe, kwas rybonukleinowy",
+          "oligosacharydy i polisacharydy",
+          "białko, cukry proste i/lub glukozę",
+          "odpowiedzi A i B są prawidłowe"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 43,
+        "question": "Jakie grupy leków mogą powodować wystąpienie ostrego zapalenia trzustki?",
+        "options": [
+          "rozkurczowe, antybiotyki, witaminy",
+          "sympatykolityki, inhibitory angiotensyny",
+          "aksjolityczne, hipotensyjne, antykoncepcyjne",
+          "przeciwzapalne, immunosupresyjne, diuretyki, sterydy"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 44,
+        "question": "Do objawów miejscowego zakażenia rany pooperacyjnej zalicza się między innymi:",
+        "options": [
+          "gorączkę, dreszcze",
+          "zaczerwienienie brzegów rany",
+          "świąd rany",
+          "opatrunek przesiąknięty treścią krwistą"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 47,
+        "question": "Uchorego z założonym na kończynę dolną opatrunkiem gipsowym, konieczna jest systematyczna kontrola obwodowej części kończyny. Stwierdzenie obrzęku palców, bladości, zasinienia skóry, oziębienia i dolegliwości bólowych przy próbie ruchów biernych, może świadczyć o:",
+        "options": [
+          "zaburzeniach gojenia się złamania, rozmiękaniu kości",
+          "zaburzeniach unerwienia kończyny w wyniku doznanego urazu",
+          "dużym prawdopodobieństwie odparzeń i zmian grzybiczych pod opatrunkiem gipsowym na skutek niedostatecznej higieny",
+          "zaburzeniach ukrwienia tkanek w wyniku okrężnego ucisku gipsu"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 56,
+        "question": "Która odma powoduje u pacjenta wygląd monstrualny?",
+        "options": [
+          "prężna",
+          "zamknięta",
+          "podskórna",
+          "otwarta"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 57,
+        "question": "Skręcenie to uraz dotyczący uszkodzenia:",
+        "options": [
+          "mięśni",
+          "ścięgien",
+          "stawów",
+          "mięśni i ścięgien"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 59,
+        "question": "Upacjenta z tamponadą serca po urazie klatki piersiowej obserwuje się między innymi:",
+        "options": [
+          "spadek ciśnienia tętniczego",
+          "znaczne wypełnienie żył szyjnych",
+          "wstrząs",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 60,
+        "question": "Pielęgniarka w celu przeciwdziałania obrzękowi mózgu, ułoży pacjenta z urazem czaszkowo- mózgowym w pozycji:",
+        "options": [
+          "płaskiej z głową pod kątem 30 stopni",
+          "płaskiej",
+          "z głową uniesioną pod kątem 60 stopni",
+          "wysokiej"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 67,
+        "question": "Opieka pielęgniarska nad pacjentem z tętniakiem śródczaszkowym ma na celu wspieranie działań stabilizujących stan chorego po krwotoku i zapobieżenie powikłaniom. Aby nie dopuścić do wystąpienia ponownego krwawienia, należy:",
+        "options": [
+          "bezwzględnie przestrzegać reżimu łóżkowego aż do momentu operacyjnego zaopatrzenia tętniaka",
+          "stopniowo uruchamiać chorego, z zastosowaniem przerw na odpoczynek co 2-3 godziny, chory może wykonać mały wysiłek",
+          "w pierwszych 2 dobach przestrzegać ułożenia pacjenta płasko, a następnie stopniowo pionizować pacjenta pamiętając o przerwach 2-3 godzinnych na odpoczynek",
+          "bezwzględnie przestrzegać prawidłowego ułożenia pacjenta (ułożenie w pozycji przeciwwstrząsowej), z zaleceniem umiarkowanego wysiłku"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 70,
+        "question": "Jedynym skutecznym sposobem zapobiegania zakrzepicy u chorych o średnim i dużym ryzyku jest:",
+        "options": [
+          "stosowanie przez pacjenta aktywności fizycznej zarówno w okresie przed jak i pooperacyjnym",
+          "leczenie pacjenta preparatami zmniejszającymi powstawanie skrzeplin",
+          "stosowanie wobec pacjenta fizycznych technik zapobiegania zastojowi krwi w zatokach żylnych kończyn dolnych",
+          "łączenie technik farmakologicznych, fizycznych i fizjoterapeutycznych"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 84,
+        "question": "Wodniesieniu do stosowania opatrunków nowej generacji, pielęgniarka powinna znać właściwości opatrunków oraz zasady doboru opatrunku w zależności od cech rany/owrzodzenia, ponieważ:",
+        "options": [
+          "wpływa to na dużą skuteczność stosowanych opatrunków w leczeniu ran",
+          "jednym z przeciwwskazań do stosowania opatrunków nowej generacji są zaburzenia czucia",
+          "opatrunki, które w swoim składzie posiadają substancje poprawiające ukrwienie i odżywienie rany, powinny być stosowane głównie w ranach o etiologii niedokrwiennej",
+          "opatrunki gazowe stanowią alternatywę do stosowania opatrunków interaktywnych tylko w fazie proliferacji"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 85,
+        "question": "Niedostateczna edukacja lub jej brak w odniesieniu do chorych stosujących doustne środki przeciwkrzepliwe może prowadzić do niewłaściwego ich stosowania, co powoduje:",
+        "options": [
+          "wzrost ryzyka otyłości",
+          "wzrost ryzyka urazów (wpływ leku na sprawność motoryczną, prowadzenie pojazdów i obsługę maszyn)",
+          "wzrost ryzyka powikłań krwotocznych",
+          "obniżenie ryzyka powikłań zakrzepowo-zatorowych"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 100,
+        "question": "Ocenę stanu ogólnego chorego po znieczuleniu umożliwia skala:",
+        "options": [
+          "Stewarda",
+          "ASA",
+          "Glasgow",
+          "Baxter"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 122,
+        "question": "Wjakim zakresie pacjent, który nie ukończył 16 lat ma prawo do informacji o swoim stanie zdrowia, rozpoznaniu, proponowanych oraz możliwych metodach diagnostycznych i leczniczych, dających się przewidzieć następstwach ich zastosowania albo zaniechania, wynikach leczenia oraz rokowaniu?",
+        "options": [
+          "w pełnym zakresie, ponieważ konieczne jest to do uzyskania świadomej zgody",
+          "w zakresie ograniczonym dobrem małoletniego pacjenta i jego stopniem rozwoju",
+          "w zakresie i formie potrzebnej do prawidłowego przebiegu procesu diagnostycznego lub terapeutycznego",
+          "w zakresie, w jakim informacji tej udzielą mu jego przedstawiciele ustawowi (rodzice), którym przysługuje pełna informacja"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 125,
+        "question": "Pielęgniarka, położna NIE udzieliła pomocy osobie, która nagle zasłabła na ulicy, lecz szybko oddaliła się z miejsca zdarzenia. Zachowanie takie naraża ją na poniesienie odpowiedzialności:",
+        "options": [
+          "pracowniczej i karnej",
+          "karnej i zawodowej",
+          "pracowniczej",
+          "pracowniczej, karnej i zawodowej"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 126,
+        "question": "Międzynarodowym dokumentem uchwalonym w celu przeciwdziałania handlu narządami, jest:",
+        "options": [
+          "niepodpisana przez Polskę Konwencja Rady Europy przeciwko handlowi ludzkimi narządami",
+          "podpisana przez Polskę Konwencja Rady Europy przeciwko handlowi ludzkimi narządami",
+          "niepodpisana przez Polskę Deklaracja Światowej Organizacji Zdrowia \"Razem dla zaprzestania handlowi organami ludzkimi\"",
+          "podpisana przez Polskę Deklaracja Światowej Organizacji Zdrowia \"Razem dla zaprzestania handlowi organami ludzkimi\""
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 129,
+        "question": "Grupa osób wspólnie realizująca proces leczenia stanowi zespół terapeutyczny, którego cechami jest wspólnota celu działania i odpowiedzialności za jego realizację oraz:",
+        "options": [
+          "sprawny obieg informacji, indywidualne ustalenie zakresu działań",
+          "sprawny obieg informacji, wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień)",
+          "ustalenie zakresu obowiązków przez lidera, sprawny obieg informacji",
+          "wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień), wyłącznie elektroniczny obieg informacji"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 131,
+        "question": "Analiza czynników innych niż zdrowotne, które mogą mieć wpływ na stan zdrowia na poziomie województw została pogrupowana w trzech kategoriach: sytuacja demograficzna, rynek pracy i edukacja, sytuacja gospodarcza i stan gospodarstw domowych. Do oceny sytuacji demograficznej w województwach wykorzystane zostały dwa wskaźniki, są to:",
+        "options": [
+          "wskaźnik feminizacji i obciążenia demograficznego osobami starszymi",
+          "wskaźnik zatrudnienia i obciążenia demograficznego osobami starszymi",
+          "wskaźnik feminizacji i wykształcenia",
+          "wskaźnik zatrudnienia i wykształcenia"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 135,
+        "question": "Audyt przeprowadzany przez niezależne organizacje zewnętrzne, które prowadzą certyfikację lub rejestrację za zgodność z wymogami ISO, to audyt:",
+        "options": [
+          "strony drugiej",
+          "wewnętrzny",
+          "strony pierwszej",
+          "strony trzeciej"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 140,
+        "question": "Rozwój własny i zawodu jest uznawany za jedną z głównych funkcji pielęgniarstwa, w ramach której pielęgniarka, położna:",
+        "options": [
+          "inicjuje nowe sposoby pracy w celu osiągnięcia lepszych rezultatów, wskazuje obszary do badań nad poprawą praktyki zawodowej oraz uczestniczy w badaniach naukowych",
+          "inicjuje nowe sposoby pracy w celu osiągnięcia lepszych rezultatów, wskazuje obszary do badań nad poprawą praktyki zawodowej lecz nie może uczestniczyć w badaniach naukowych",
+          "wskazuje obszary do badań nad poprawą praktyki zawodowej oraz może uczestniczyć w badaniach naukowych wyłącznie w miejscu pracy i za zgodą bezpośredniego przełożonego",
+          "wskazuje obszary do badań nad poprawą praktyki zawodowej oraz może uczestniczyć w badaniach naukowych wyłącznie po ukończeniu odpowiedniej formy kształcenia podyplomowego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 17,
+        "question": "Badanie fizykalne w przypadku ostrego brzucha dotyczy:",
+        "options": [
+          "całego chorego",
+          "okolicy od spojenia łonowego do łuków żebrowych",
+          "okolicy od wyrostka mieczykowatego, spojenia łonowego do",
+          "od linii międzysutkowej do spojenia łonowego"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 49,
+        "question": "Pacjent leczony z powodu złamania kręgosłupa przy zastosowaniu gorsetu ortopedycznego powinien nosić gorset:",
+        "options": [
+          "całą dobę, bez zdejmowania na noc",
+          "w dzień, zdejmując na noc",
+          "tylko kiedy pozostaje w domu, zdejmować go na czas wychodzenia z domu (spacer, zakupy, itp.)",
+          "tylko kiedy wychodzi z domu (spacer, zakupy, itp.)"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 54,
+        "question": "Wjakim czasie dochodzi do największego obrzęku pourazowego spowodowanego uciskiem gipsu?",
+        "options": [
+          "3-4 godzin",
+          "10 godzin",
+          "24-48 godzin",
+          "15-20 godzin"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 62,
+        "question": "Wopiece pooperacyjnej ważne jest odpowiednie ułożenie pacjenta po zabiegu operacyjnym neurochirurgicznym. Po zabiegu operacyjnym na kręgosłupie szyjnym pacjent jest ułożony (wskaż zdanie niewłaściwe):",
+        "options": [
+          "zawsze zabezpieczony jest w kołnierz ortopedyczny",
+          "tak, aby głowa i tułów znajdowały się w jednej osi",
+          "płasko (bez poduszek)",
+          "z głową i tułowiem pod kątem 30 st"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 65,
+        "question": "Które z wymienionych zaburzeń NIE są charakterystyczne dla chorych z afazją ruchową?",
+        "options": [
+          "mowa jest płynna z parafrazjami",
+          "mowa jest powolna, niepłynna",
+          "słowa wypowiadane są z wysiłkiem",
+          "zaburzona ekspresja mowy"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 2,
+        "question": "Do typowych objawów odrzucenia przeszczepionej nerki należą:",
+        "options": [
+          "zwiększenie ilości wydzielanego moczu, dyskomfort i ból w okolicy lędźwiowej, obniżenie ciśnienia tętniczego krwi",
+          "stała ilość wydzielanego moczu, krwiomocz, obniżenie temperatury ciała, tętniczego krwi, apatia, obniżenie ciśnienia",
+          "zmniejszenie ilości wydzielanego moczu, powiększenie i bolesność przeszczepu, złe samopoczucie, gorączka, podwyższenie ciśnienia tętniczego krwi",
+          "wydzielanie moczu z zawartością krwi, bóle i powiększenie obwodu brzucha, niestabilne ciśnienie tętnicze krwi, wzrost temperatury ciała"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 4,
+        "question": "Do powikłań metabolicznych żywienia pozajelitowego należą między innymi:",
+        "options": [
+          "kwasica mleczanowa, niewydolność oddechowa, niekwasicza śpiączka hiperglikemiczna",
+          "mocznica, zasadowica oddechowa, mleczanowa, niewydolność",
+          "niewydolność oddechowa, odma opłucnowa, zator powietrzny",
+          "kwasica mleczanowa, niewydolność oddechowa, odma opłucnowa"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 25,
+        "question": "PRZECIWSKAZANIEM do operacyjnego leczenia otyłości jest/są:",
+        "options": [
+          "cukrzyca, kardiomiopatie, nadciśnienie tętnicze",
+          "zespół bezdechu sennego",
+          "choroby zapalne przewodu pokarmowego",
+          "indeks masy ciała (BMI-body mass index) przekraczający 45"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 55,
+        "question": "Pierwszoplanowym postępowaniem bez względu na postać wstrząsu jest:",
+        "options": [
+          "zastosowanie antybiotyków o szerokim spektrum działania",
+          "właściwa terapia płynowa, która ma na celu przywrócenie objętości śródnaczyniowej i prawidłowej perfuzji tkankowej",
+          "zastosowanie intubacji dotchawiczej",
+          "oznaczenie poziomu elektrolitów, glukozy, mocznika, kreatyniny we krwi"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 73,
+        "question": "Warunkiem decyzji o usunięciu drenu z opłucnej są:",
+        "options": [
+          "uzyskanie obrazu radiologicznego w pełni rozprężonego płuca, brak przepływu powietrza przez dren, drenaż płynu z opłucnej mniejszy niż 100-200 ml/dobę",
+          "wyrównanie ciśnienia w jamie opłucnej do wartości ciśnienia atmosferycznego, zniesiony lub osłabiony szmer pęcherzykowy, brak płynu wysiękowego w drenie",
+          "pełne rozprężenie płuca potwierdzone radiologicznie, ilość płynu w opłucnej nie przekraczająca 100-200 ml, prawidłowe wartości gazometrii tętniczej",
+          "brak przepływu powietrza przez dren, niskie pH płynu, zniesiony lub osłabiony szmer pęcherzykowy"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 81,
+        "question": "Leczenie uciskowe polegające na noszeniu opasek lub pończoch elastycznych o stopniowanym ucisku powinno być zakładane:",
+        "options": [
+          "w pozycji stojącej",
+          "w pozycji siedzącej",
+          "w pozycji leżącej",
+          "niezależnie od pozycji"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 91,
+        "question": "Pielęgniarka u pacjenta z cewnikiem ma pobrać mocz na posiew. Prawidłowym jej działaniem będzie:",
+        "options": [
+          "usunięcie starego cewnika i założenie nowego",
+          "umieszczenie w jałowym pojemniku końcówki cewnika po odłączeniu od worka",
+          "odkażenie zewnętrznej powierzchni cewnika, wkłucie się jałową igłą do jego światła i aspirowanie moczu do jałowej strzykawki",
+          "po zdezynfekowaniu końcówki spustowej pobranie moczu z worka"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 93,
+        "question": "Przy kamicy moczanowej zaleca się, aby pacjent spożywał:",
+        "options": [
+          "warzywa i owoce (cytryny, ziemniaki), miód, ser twarogowy chudy, wodę mineralną",
+          "baraninę, wieprzowinę, grzyby, rośliny strączkowe",
+          "ser, orzechy, czekoladę, wodę mineralną",
+          "śledzie, rośliny strączkowe, kawior, wodę mineralną, mleko, wywary mięsne"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 111,
+        "question": "Objawy tamponady serca tzw. triady Becka to:",
+        "options": [
+          "spadek ciśnienia tętniczego krwi, osłuchowo stwierdzane głośne tony serc, nadmiernie wypełnione żyły szyjne",
+          "spadek ciśnienia tętniczego krwi, osłuchowo stwierdzane ciche tony serc, nadmiernie wypełnione żyły szyjne",
+          "osłuchowo stwierdzane głośne tony serca, wzrost ciśnienia tętniczego krwi, nadmiernie wypełnione żyły szyjne",
+          "wzrost ciśnienia tętniczego krwi, osłuchowo stwierdzane ciche tony serc, nadmiernie wypełnione żyły szyjne"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 30,
+        "question": "Występowanie smolistych stolców u pacjenta, świadczy o:",
+        "options": [
+          "szczelinie odbytu",
+          "wgłobieniu jelita grubego",
+          "krwawieniu do górnego odcinka przewodu pokarmowego",
+          "chorobie hemoroidalnej"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 123,
+        "question": "Takie zachowania pielęgniarki jak: spóźnianie się do pracy, dyżurowanie ponad normatywny czas, unikanie szkoleń zawodowych, mieszczą się w granicach odpowiedzialności:",
+        "options": [
+          "wyłącznie pracowniczej",
+          "wyłącznie służbowej",
+          "karnej, materialnej",
+          "pracowniczej, moralnej"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 132,
+        "question": "Badania epidemiologiczne opisowe służą do:",
+        "options": [
+          "opisu częstości występowania choroby w populacji na podstawie określonych mierników",
+          "opisu związków choroby z czynnikami, które mogą wpływać na jej częstość lub przebieg",
+          "szukania w przeszłości prawdopodobnej przyczyny choroby",
+          "zbierania informacji o przyczynach choroby, co pozwala na najbardziej bezpośredni pomiar ryzyka jej wystąpienia"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 134,
+        "question": "Wocenie kompetencji miękkich pracownika uwzględnisz:",
+        "options": [
+          "wygląd zewnętrzny, postawę, wykształcenie",
+          "zachowanie, komunikację, postawę, wartości",
+          "wartości, sposób poruszania, wykształcenie",
+          "wszystkie odpowiedzi są błędne"
+        ],
+        "correct": "B"
+      }
+    ]
+  },
+  {
+    "id": "deck-urazy-neuro",
+    "year": 2025,
+    "session": "spring",
+    "name": "Urazy i neurochirurgia",
+    "emoji": "🧠",
+    "color": "#7c3aed",
+    "cards": [
+      {
+        "id": 45,
+        "question": "Pacjent po urazie jamy brzusznej zgłasza promieniowanie bólu do barku, świadczyć może to o:",
+        "options": [
+          "uszkodzeniu trzustki",
+          "podrażnieniu nerwu przeponowego w przypadku pęknięcia wątroby lub śledziony",
+          "pęknięciu dwunastnicy",
+          "niedrożności jelita grubego"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 50,
+        "question": "Zależnie od czasu trwania utraty przytomności rozróżnia się III stopnie ciężkości wstrząśnienia mózgu. Średnie wstrząśnienie mózgu II stopnia występuje gdy:",
+        "options": [
+          "utrata przytomności do 15 minut, niepamięć po urazie do 1 godziny",
+          "utrata przytomności trwa do 1 godziny a niepamięć pourazowa poniżej 24 godzin",
+          "utrata przytomności do 6 godzin, niepamięć pourazowa powyżej 24 godzin",
+          "utrata przytomności do 4 godzin, niepamięć pourazowa do 20 godzin"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 61,
+        "question": "Do zablokowania dróg odpływu płynu mózgowo-rdzeniowego, czego wyrazem jest ostre wodogłowie wewnętrzne prowadzą guzy:",
+        "options": [
+          "nadnamiotowe",
+          "tylnojamowe",
+          "wewnątrzkomorowe",
+          "wszystkie wymienione"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 63,
+        "question": "Pacjentom po operacji tętniaków w okresie pooperacyjnym przez kilkadziesiąt godzin do kilku dni podaje się w ciągłym wlewie pompą infuzyjną nimodypinę. Przy podawaniu nimodypiny pielęgniarka powinna zawsze pamiętać o:",
+        "options": [
+          "zabezpieczeniu leku przed działaniem światła słonecznego",
+          "wykonywaniu badań kontrolnych (morfologia, glukoza)",
+          "obserwacji i kontroli opatrunków",
+          "ułożeniu pacjenta w pozycji płaskiej na plecach"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 64,
+        "question": "Skala Boterella w modyfikacji Hunta i Hessa, używana jest do:",
+        "options": [
+          "oceny stanu klinicznego pacjenta po operacji guza mózgu",
+          "oceny stanu klinicznego pacjenta po operacji guza kanału kręgowego",
+          "oceny stanu klinicznego pacjenta z krwotokiem podpajeczynówkowym",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 46,
+        "question": "Upacjenta po urazie czaszkowo-mózgowym pielęgniarka zaobserwowała zwolnienie oddechu, co może być pierwszym sygnałem:",
+        "options": [
+          "uszkodzenia pnia mózgu",
+          "wstrząsu",
+          "wzrostu temperatury",
+          "ucisku pnia mózgu"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 48,
+        "question": "Wzespole Sudecka okres dystrofii cechuje przewlekły skurcz naczyń krwionośnych. Okres ten trwa od:",
+        "options": [
+          "6 tygodni do 4 miesięcy",
+          "3 tygodni do 8 tygodni",
+          "6 miesięcy do 12 miesięcy",
+          "5 miesięcy do 8 miesięcy"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 51,
+        "question": "Wedukacji chorego po implantacji endoprotezy stawu biodrowego należy zwrócić uwagę na zapobieganie zwichnięciu endoprotezy podczas wykonywania codziennych czynności. Wtej kwestii chory powinien:",
+        "options": [
+          "wykonywać obroty na kończynie operowanej",
+          "jak najczęściej siadać ze skrzyżowanymi nogami",
+          "wykonywać większe przywodzenie i pogłębione ruchy rotacyjne na zewnątrz",
+          "unikać głębokiego siadu i silnych ruchów rotacyjnych do wewnątrz i na zewnątrz"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 53,
+        "question": "Prowadzenie gimnastyki oddechowej zalecane jest dla pacjentów:",
+        "options": [
+          "w przypadku złamania jednego żebra lub mostka",
+          "z ograniczoną aktywnością ruchową lub unieruchomionego",
+          "narażonych na możliwość wystąpienia zapalenia płuc w okresie pooperacyjnym",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 58,
+        "question": "Skalą punktową odnoszącą się do trzech objawów, tj. stopnia orientacji w sytuacji i jakości odpowiedzi na pytanie, otwierania oczu pod wpływem bodźca słownego lub bólowego oraz rodzaju reakcji obronnej na bodziec bólowy, jest skala:",
+        "options": [
+          "HTI (Hospital Trauma Index)",
+          "AIS (Abbreviated Injury Scale)",
+          "ISS (Injury Severuty Score)",
+          "GCS (Glasgow Coma Scale)"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 120,
+        "question": "Najczęstsze przyczyny śmierci pnia mózgu to:",
+        "options": [
+          "następstwa urazu czaszkowo-mózgowego",
+          "krwawienie śródczaszkowe",
+          "niedokrwienne uszkodzenia mózgu (stan po zatrzymaniu krążenia)",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 18,
+        "question": "Po urazie klatki piersiowej mogą wystąpić u pacjenta objawy odmy prężnej, charakteryzującej się mechanizmem zastawkowym. Objawem wskazującym na odmę prężną NIE jest:",
+        "options": [
+          "gwałtownie narastająca duszność, tachykardia",
+          "bębenkowy odgłos opukowy po stronie zdrowej, hipertonia",
+          "ściszenie lub zniesienie szmerów oddechowych po stronie chorej",
+          "sinica, tachpnoë (przyśpieszony oddech)"
+        ],
+        "correct": "B"
+      }
+    ]
+  },
+  {
+    "id": "deck-naczyniowa-kardio-urologia",
+    "year": 2025,
+    "session": "spring",
+    "name": "Naczyniowa, kardio i urologia",
+    "emoji": "❤️",
+    "color": "#dc2626",
+    "cards": [
+      {
+        "id": 16,
+        "question": "Rudolf Virchow określił trzy podstawowe przyczyny powstawania zakrzepicy żylnej. Która z wymienionych przyczyn nie należy do tej triady?",
+        "options": [
+          "zmiany w składzie krwi",
+          "zmiany w ścianie naczyń żylnych",
+          "zmiany w unerwieniu kończyny",
+          "zaburzenia w przepływie krwi"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 52,
+        "question": "Wwywiadzie i podczas badania fizykalnego chorych, którzy doznali urazu brzucha, należy zwrócić uwagę na ból w lewym podżebrzu, promieniujący do lewego barku, tzw. objaw Kehra, który wskazuje na:",
+        "options": [
+          "pęknięcie trzustki",
+          "pęknięcie śledziony",
+          "uszkodzenie jelita cienkiego",
+          "perforację pęcherza moczowego"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 66,
+        "question": "Po wykonanym badaniu angiograficznym pacjent ma założony opatrunek uciskowy w pachwinie. Aby zapobiec wytworzeniu się krwiaka w miejscu nakłucia, opatrunek uciskowy utrzymuje się przez okres:",
+        "options": [
+          "1-2 godzin",
+          "3-8 godzin",
+          "8-12 godzin",
+          "24 godziny"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 68,
+        "question": "Wwywiadzie i w badaniu przedmiotowym u chorych z podejrzeniem przewlekłego niedokrwienia kończyn dolnych pielęgniarka zwraca uwagę na:",
+        "options": [
+          "ocenę objawów chromania przestankowego i ograniczenia zdolności chodzenia",
+          "wygląd kończyn dolnych, ocenę tętna obwodowego i pomiar wskaźnika kostka-ramię",
+          "obecność czynników ryzyka miażdżycy",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 69,
+        "question": "Zespół trzech czynników uznawanych za przyczyny zakrzepicy żylnej (zaburzenia przepływu krwi, uszkodzenie ściany naczynia, zmiany w składzie krwi) określane są mianem:",
+        "options": [
+          "triady Cushinga",
+          "triady Becka",
+          "triady Virchowa",
+          "triady Charcota"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 71,
+        "question": "Artropatia Charcota jest przyczyną znacznych deformacji stopy. Wostrej fazie charakteryzuje się triadą objawów, którymi są między innymi:",
+        "options": [
+          "obrzęk, zaczerwienienie, wzrost ucieplenia stopy",
+          "obrzęk, zaczerwienienie, oziębienie stopy",
+          "zasinienie, oziębienie stopy, obrzęk",
+          "zasinienie, mrowienie, oziębienie stopy"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 72,
+        "question": "Zapobieganie powstaniu zespołu stopy cukrzycowej polega między innymi na:",
+        "options": [
+          "utrzymaniu komfortu cieplnego kończyn dolnych, badaniu tętna na stopach, zarzuceniu palenia papierosów",
+          "codziennej pielęgnacji stóp, odbarczaniu miejsc patogennego ucisku, zwiększeniu siły i sprawności stóp przez ćwiczenia",
+          "częstych kąpielach kończyn w ciepłej wodzie, masażu stóp, przyjmowaniu małych dawek alkoholu",
+          "stosowaniu diety niskocholesterolowej, przebywaniu w chłodnych pomieszczeniach, noszeniu obuwia nieprzepuszczającego powietrza"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 74,
+        "question": "Wodniesieniu do kompresjoterapii, FAŁSZYWE jest stwierdzenie:",
+        "options": [
+          "stosowanie kompresjoterapii leczniczej wymaga oceny wskaźnika kostka-ramię i określenia przeciwwskazań do jej stosowania",
+          "kompresjoterapia zmniejsza występujące w przewlekłej niewydolności nadciśnienie żylne poprzez redukcję refluksu żylnego",
+          "stosowanie kompresjoterapii wiąże się z wytwarzaniem konkretnych wartości ciśnień międzypowierzchniowych, wywieranych na tkanki (5 różnych stopni ucisku w zakresie 10-60 mmHg)",
+          "kompresjoterapia z zastosowaniem specjalistycznych bandaży powinna obejmować kończynę od kostki do guzowatości piszczeli"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 75,
+        "question": "Chromanie przestankowe jest to zaburzenie chodzenia spowodowane bólem w kończynie ustępującym po zatrzymaniu się i nawracającym po ponownym marszu, ból przeważnie pojawia się w:",
+        "options": [
+          "łydce, rzadko w stopie, wyjątkowo w udzie, biodrze lub pośladku",
+          "stopie, rzadko w łydce, wyjątkowo w udzie, biodrze lub pośladku",
+          "udzie, biodrze lub pośladku, rzadko w łydce, wyjątkowo w stopie",
+          "łydce, rzadko w udzie, biodrze lub pośladku, wyjątkowo w stopie"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 86,
+        "question": "Jaki stopień kompresjoterapii użyjemy w leczeniu owrzodzeń żylnych:",
+        "options": [
+          "klasa A – 10-20 mmHg",
+          "klasa I - 21-30 mmHg",
+          "klasa II – 31-40 mmHg",
+          "klasa III- 41-50 mmHg"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 21,
+        "question": "Skąpomocz (oliguria) charakteryzuje się objętością oddawanego moczu w ilości:",
+        "options": [
+          "<100 ml/d",
+          ">800 ml/d",
+          "<50 ml/d",
+          "<500 ml/d"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 76,
+        "question": "Badanie tętna w sytuacji niedokrwienia kończyn dolnych powinno być oceniane i rozpoczynać się:",
+        "options": [
+          "na tętnicy udowej wspólnej, tętnicy podkolanowej, tętnicy piszczelowej tylnej, tętnicy grzbietowej stopy",
+          "na tętnicy grzbietowej stopy, w szczycie dołu podkolanowego, na tętnicy udowej wspólnej, za kostką przyśrodkową",
+          "między I a II kością śródstopia, za kostką przyśrodkową, w szczycie dołu podkolanowego, poniżej więzadła pachwinowego",
+          "poniżej więzadła pachwinowego, między I a II kością śródstopia, za kostką przyśrodkową, na tętnicy podkolanowej"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 77,
+        "question": "Owrzodzenia powstałe na stronie podeszwowej, w miejscach o zwiększonym nacisku i ciśnieniu wewnętrznym stopy, np. okolice uwypuklonych głów kości śródstopia, palce, pięta a rana ma regularny kształt i wyraźnie wcięte brzegi występują w:",
+        "options": [
+          "zespole stopy cukrzycowej niedokrwiennej",
+          "zespole stopy cukrzycowej neuropatycznej",
+          "chorobie Raynauda",
+          "chorobie Buergera"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 78,
+        "question": "Wskaźnik kostka-ramię, to:",
+        "options": [
+          "stosunek wartości tętna mierzonego na tętnicach podudzia w okolicy kostki (tętnicy piszczelowej tylnej lub grzbietowej stopy) do tętna mierzonego na tętnicy ramiennej",
+          "stosunek ciśnienia skurczowego w tętnicach podudzia w okolicy kostki (tętnicy piszczelowej tylnej lub grzbietowej stopy) do ciśnienia mierzonego na tętnicy ramiennej",
+          "stosunek ciśnienia skurczowego w tętnicy ramiennej do ciśnienia mierzonego na tętnicach podudzia w okolicy kostki (tętnicy piszczelowej tylnej lub grzbietowej stopy)",
+          "stosunek ciśnienia panującego w żyłach podkolanowych do ciśnienia w żyle odłokciowej"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 79,
+        "question": "Napadowe niedokrwienie palców rąk występujące częściej u młodych, znerwicowanych kobiet z dużą wrażliwością dłoni na zimno nosi nazwę:",
+        "options": [
+          "fenomenu Raynauda",
+          "choroby Takayashu",
+          "choroby Buergera",
+          "choroby Dupuytrena"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 80,
+        "question": "Upacjenta z ostrym zespołem wieńcowym podczas koronarografii może dojść do powikłania związanego z podaniem kontrastu, którym jest:",
+        "options": [
+          "reakcja alergiczna",
+          "nefropatia kontrastowa",
+          "krwawienie z miejsca wkłucia",
+          "prawidłowe odpowiedzi A i B"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 82,
+        "question": "Nieinwazyjną metodą leczenia zachowawczego przewlekłej niewydolności żylnej jest kompresjoterapia czyli terapia uciskowa. Wskaż zdanie NIEPRAWDZIWE:",
+        "options": [
+          "kompresjoterapia poprawia efektywność pompy mięśniowej, zmniejsza zastój żylny i przywraca prawidłowe warunki hydrostatyczne dla odpływu krwi żylnej",
+          "leczenie uciskiem zmniejsza objętość krwi zalegającej w układzie żył powierzchniowych, powodując przez to przyspieszenie przepływu krwi w ży��ach układu głębokiego",
+          "kompresjoterapia nie może być stosowana w profilaktyce chorób żył podczas ciąży",
+          "kompresjoterapia może zwiększać pojemność minutową serca o ok. 5%, dlatego jest niewskazana u chorych z niewydolnością serca"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 83,
+        "question": "Krwioplucie jest wczesnym objawem:",
+        "options": [
+          "zapalenia płuc",
+          "raka oskrzela",
+          "nadużycia alkoholu",
+          "zapalenia krtani"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 87,
+        "question": "Sternotomia jest to:",
+        "options": [
+          "zabieg chirurgiczny przecięcia zwieracza",
+          "zwiększone ciśnienie w lewym przedsionku serca",
+          "chirurgiczne rozcięcie mostka",
+          "zespolenie mostka po operacji kardiochirurgicznej"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 88,
+        "question": "Płukanie pęcherza moczowego to zabieg terapeutyczny, polegający na wprowadzeniu i wyprowadzeniu płynu z pęcherza moczowego przez założony cewnik. Celem tego zabiegu jest:",
+        "options": [
+          "usunięcie złogów kamiczych zalegających w pęcherzu moczowym",
+          "oczyszczenie pęcherza moczowego, np. ze skrzepów krwi, po operacjach urologicznych",
+          "zadziałanie odpowiednimi środkami lub lekami na florę bakteryjną",
+          "prawidłowe odpowiedzi B i C"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 89,
+        "question": "Upacjenta skarżącego się na dolegliwości ze strony układu moczowego, sprawdzamy objaw:",
+        "options": [
+          "Blumberga",
+          "Goldflama",
+          "Prechna",
+          "Chvostka"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 90,
+        "question": "Wramach postępowania wspomagającego farmakoterapię w nadreaktywności pęcherza moczowego stosuje się:",
+        "options": [
+          "dzienniczek mikcji",
+          "elektrostymulację mięśni dna miednicy",
+          "mikcje w ściśle określonych godzinach",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 92,
+        "question": "Podstawowym objawem klinicznym raka pęcherza moczowego, jest:",
+        "options": [
+          "ropomocz",
+          "bezbolesny krwiomocz najczęściej ze skrzepami",
+          "ból",
+          "skąpomocz"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 94,
+        "question": "Metoda ESWL stosowana w celu usuwania złogów, polega na:",
+        "options": [
+          "nieinwazyjnym pozaustrojowym kruszeniu kamieni w nerce lub w moczowodzie",
+          "kruszeniu kamieni nerkowych przez przezskórną przetokę nerkową",
+          "wziernikowaniu moczowodu z możliwością wykonania zabiegu",
+          "zastosowaniu doustnych preparatów rozpuszczających złogi"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 95,
+        "question": "Florę bakteryjną zakażenia nerek i dróg moczowych izolowanego u ponad 80% chorych leczonych z powodu niepowikłanego zapalenia pęcherza moczowego lub odmiedniczkowego zapalenia nerek stanowi:",
+        "options": [
+          "candida albicans",
+          "escherichia coli",
+          "cytomegalovirus",
+          "trichomonas"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 96,
+        "question": "Częstomocz, parcie naglące, ból w okolicy nadłonowej, gorączka i nudności to objawy:",
+        "options": [
+          "zakażenia układu moczowego",
+          "zapalenia pęcherza moczowego",
+          "kolki nerkowej",
+          "zapalenia jądra"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 97,
+        "question": "Obserwując pacjenta po zabiegu PCNL (przezskórna nefrolitotrypsja), należy zwrócić uwagę na nasilenie krwawienia z:",
+        "options": [
+          "przetoki nerkowej",
+          "dróg rodnych",
+          "przewodu pokarmowego",
+          "przetoki nadłonowej"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 98,
+        "question": "Przed badaniem cystoskopii pacjent powinien:",
+        "options": [
+          "wypić 2 litry wody",
+          "opróżnić pęcherz moczowy",
+          "przyjąć tabletki moczopędne",
+          "mieć pełen pęcherz moczowy"
+        ],
+        "correct": "B"
+      }
+    ]
+  },
+  {
+    "id": "deck-pediatria-ratunkowe",
+    "year": 2025,
+    "session": "spring",
+    "name": "Pediatria i stany nagłe",
+    "emoji": "🚑",
+    "color": "#0ea5e9",
+    "cards": [
+      {
+        "id": 99,
+        "question": "Wzrost/spadek temperatury u dziecka o 1° C zwiększa/zmniejsza zapotrzebowanie na płyny o:",
+        "options": [
+          "około 3 %",
+          "około 5 %",
+          "około 7 %",
+          "około 10 %"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 102,
+        "question": "Celem premedykacji przedoperacyjnej jest m.in. zmniejszenie niepokoju i lęku, zmniejszenie wydzielania w drogach oddechowych, zahamowanie nudności i wymiotów pooperacyjnych. Wzwiązku z powyższym, premedykację u dzieci stosuje się:",
+        "options": [
+          "w przypadku wszystkich operacji w trybie nagłym",
+          "zawsze u dzieci poniżej 1. miesiąca życia",
+          "według zlecenia lekarskiego, na 60 – 90 minut przed zabiegiem operacyjnym",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 103,
+        "question": "Guz Wilmsa nazywany jest:",
+        "options": [
+          "krwiakiem śledziony",
+          "grasiczakiem",
+          "gruczolakiem wątroby",
+          "nerczakiem zarodkowym"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 105,
+        "question": "Objawy kliniczne, takie jak: ból brzucha o charakterze kolkowym, wymioty i śluzowo-krwisty stolec przypominający galaretkę porzeczkową, są charakterystyczne dla:",
+        "options": [
+          "choroby Hirschsprunga",
+          "wgłobienia jelita",
+          "martwiczego zapalenia jelit",
+          "raka jelita grubego"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 106,
+        "question": "Premedykacji NIE stosuje się u dzieci poniżej:",
+        "options": [
+          "1 miesiąca",
+          "6 miesięcy",
+          "12 miesięcy",
+          "2 lat"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 110,
+        "question": "Nadmierne ślinienie się noworodka, krztuszenie się śliną i zaburzenia w oddychaniu, świadczą o:",
+        "options": [
+          "martwiczym zapaleniu jelita",
+          "wodogłowiu",
+          "niedrożności przełyku",
+          "wgłobieniu jelita"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 118,
+        "question": "Wprzypadku dostania się związku toksycznego do oka należy natychmiast:",
+        "options": [
+          "zapuścić krople NaCl 0,9% do worka spojówkowego",
+          "obficie płukać worek spojówkowy wodą 15 minut, a następnie NaCl 0,9%",
+          "zabezpieczyć oko opatrunkiem",
+          "szybko przepłukać wodą"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 119,
+        "question": "Owystąpieniu drgawek gorączkowych u dzieci decydują następujące czynniki:",
+        "options": [
+          "temperatura ciała, wiek dziecka, predyspozycja genetyczna",
+          "temperatura ciała, wiek dziecka, masa ciała dziecka",
+          "temperatura ciała, predyspozycja genetyczna",
+          "temperatura ciała, predyspozycja genetyczna, błędy dietetyczne"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 101,
+        "question": "Udziecka, w dniu planowanego zabiegu operacyjnego zaobserwowano katar, kaszel i wzrost temperatury ciała. Oznacza to, że:",
+        "options": [
+          "przed zabiegiem należy podać dziecku leki obniżające temperaturę i wdrożyć antybiotykoterapię",
+          "należy zdyskwalifikować dziecko z zabiegu w danym dniu, wdrożyć leczenie infekcji układu oddechowego i zaplanować zabieg w innym terminie",
+          "decyzję o przeprowadzeniu zabiegu zgodnie z planem podejmuje lekarz, biorąc pod uwagę m.in. nasilenie objawów, wiek dziecka",
+          "należy zmienić kolejność planowanych zabiegów operacyjnych w tym dniu i przeprowadzić zabieg u tego dziecka jako ostatni"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 104,
+        "question": "Uniemowlęcia po zabiegach neurochirurgicznych w obrębie podwzgórza, do objawów pooperacyjnych zatrucia wodnego, należy:",
+        "options": [
+          "skąpomocz",
+          "hipernatremia",
+          "wysoka osmolalność osocza",
+          "niski ciężar właściwy moczu"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 107,
+        "question": "Udzieci, u których analgetyki i leki sedacyjne były podawane długotrwale może pojawić się tzw. zespół odstawienia, który charakteryzuje się następującymi objawami:",
+        "options": [
+          "zaparcia, kaszel, zaburzenia oddechowe",
+          "spowolnienie ruchowe, senność, tachykardia",
+          "bradykardia, senność, zaparcia, wzmożony apetyt",
+          "bezsenność, drżenie, niepokój, biegunka"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 108,
+        "question": "Jednym z pierwszych objawów hipowolemii u dzieci jest:",
+        "options": [
+          "bradykardia",
+          "tachykardia",
+          "obniżenie ciśnienia tętniczego krwi",
+          "sinica"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 109,
+        "question": "Przy wyznaczaniu miejsca do wykonania urostomii u dziecka, pielęgniarka powinna:",
+        "options": [
+          "ocenić wygląd powłok brzusznych i zewnętrznych narządów moczowo-płciowych",
+          "określić masę ciała i wzrost dziecka",
+          "wyjaśnić dziecku wskazania kliniczne do wyłonienia urostomii i omówić technikę operacji",
+          "zwrócić uwagę na możliwości psychofizyczne dziecka w zakresie samopielęgnacji"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 112,
+        "question": "Wpostępowaniu przedszpitalnym u pacjenta z odmrożeniami NIE wolno stosować:",
+        "options": [
+          "suchego nawiewu ciepła",
+          "masowania i nacierania śniegiem",
+          "kąpieli w ciepłej wodzie o temp. 40-41°C",
+          "prawidłowe odpowiedzi A i B"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 113,
+        "question": "Kwasica ketonowa u dzieci:",
+        "options": [
+          "jest pierwszym objawem cukrzycy wieku dziecięcego",
+          "polega na występowaniu hiperglikemii, odwodnienia i kwasicy metabolicznej",
+          "odpowiada za 70% zgonów u młodych osób jako powikłanie cukrzycy",
+          "wszystkie odpowiedzi są prawidłowe"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 114,
+        "question": "Przy oparzeniach u dzieci do oceny powierzchni oparzenia stosujemy regułę:",
+        "options": [
+          "dłoni",
+          "piątek",
+          "dziewiątek",
+          "Wallace'a"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 115,
+        "question": "Wreanimacji dzieci ma znaczenie zastosowanie 100% tlenu. Jest to:",
+        "options": [
+          "prawda",
+          "fałsz",
+          "stosowane tylko u dzieci poniżej 50 kg",
+          "stosowane tylko u dzieci po epizodzie podtopienia"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 116,
+        "question": "Zatrucia paracetamolem przebiegają podstępnie, dlatego też należy pamiętać, że toksyczna dobowa dawka Paracetamolu dla dorosłego wynosi:",
+        "options": [
+          "2 g",
+          "4 g",
+          "6 g",
+          "7,5 g"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 117,
+        "question": "Objawy zespołu hiperwentylacji to:",
+        "options": [
+          "niepokój, duszność, drętwienie w okolicy ust i dłoni, niekiedy tężyczka",
+          "duszność, rozpieranie w klatce piersiowej, drętwienie rąk",
+          "niepokój, przyspieszone tętno, drętwienie w okolicy ust i dłoni",
+          "niepokój, uczucie gorąca, wysokie tętno"
+        ],
+        "correct": "A"
+      }
+    ]
+  },
+  {
+    "id": "deck-prawo-etyka-zarzadzanie",
+    "year": 2025,
+    "session": "spring",
+    "name": "Prawo, etyka i zarządzanie",
+    "emoji": "⚖️",
+    "color": "#16a34a",
+    "cards": [
+      {
+        "id": 128,
+        "question": "Odzwierciedlenie to:",
+        "options": [
+          "przyjmowanie akceptującej postawy",
+          "umożliwienie przeredagowania komunikatów źle zrozumiałych",
+          "dawanie pacjentowi czasu na znalezienie odpowiednich słów do wyrażenia uczuć",
+          "specyficzne wejście w wewnętrzny świat przeżyć rozmówcy i nazywanie tego co czuje w chwili, o której opowiada"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 133,
+        "question": "Prawidłowo prowadzona rekrutacja i selekcja stanowią jedno z najważniejszych zadań w obszarze pracowników firmy usługowej. Proces selekcji kandydatów obejmuje:",
+        "options": [
+          "sporządzenie dokładnego opisu stanowiska, przyciąganie kandydatów",
+          "określenie profilu osobistego wg kryteriów dyrekcji, rozmowa kwalifikacyjna",
+          "opis stanowiska i kryteria psychologiczne",
+          "określenie profilu osobistego i socjalizacja przyszłego kandydata"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 137,
+        "question": "Motywowanie polega na zespole oddziaływań, zmierzających do:",
+        "options": [
+          "skłaniania pracowników do podejmowania i realizacji przyszłościowych, oczekiwanych celów z równoczesnym ukazaniem sankcji, jeżeli nie wykonają poleconych celów, misji i zadań",
+          "skłaniania pracowników do podejmowania i realizacji oczekiwań kolegów, podwładnych oraz przełożonych do ich realizacji",
+          "nakłaniania pracowników do podejmowania i realizacji oczekiwań podwładnych oraz przełożonych do ich realizacji w zamian za docelowe przyznanie pracownikom pieniężnej nagrody",
+          "efektywnego skłaniania pracowników do podejmowania i realizacji oczekiwanych celów, funkcji i zadań, a także przyjmowania preferowanych przez motywującego postaw i zachowań"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 121,
+        "question": "Kodeks etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej zawiera szereg sformułowań odnoszących się do cech charakteru jakie powinna posiadać pielęgniarka/położna i są to m.in.:",
+        "options": [
+          "życzliwość, wyrozumiałość, cierpliwość",
+          "życzliwość, dobroduszność, naiwność",
+          "wyrozumiałość, konformizm, życzliwość",
+          "cierpliwość, małostkowość, życzliwość"
+        ],
+        "correct": "A"
+      },
+      {
+        "id": 124,
+        "question": "Zasady odpowiedzialności zawodowej pielęgniarek i położnych określa:",
+        "options": [
+          "Kodeks etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej",
+          "ustawa o zawodach pielęgniarki i położnej",
+          "ustawa o samorządzie pielęgniarek i położnych",
+          "ustawa o działalności leczniczej"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 127,
+        "question": "Druga reguła komunikacyjna Berne'a zakłada, że:",
+        "options": [
+          "komunikacja może zachodzić bez zakłóceń, gdy transakcje są komplementarne",
+          "rytuał jest ciągiem prostych transakcji komplementarnych",
+          "grę stanowi seria komplementarnych transakcji",
+          "komunikacja interpersonalna przerywa się wówczas, gdy nastąpi transakcja skrzyżowana"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 130,
+        "question": "Do negatywnych mierników zdrowia zaliczamy:",
+        "options": [
+          "zachorowalność, śmiertelność, przyrost naturalny",
+          "chorobowość, płodność kobiet, oczekiwaną długość życia",
+          "zachorowalność, chorobowość, umieralność",
+          "zapadalność, śmiertelność, wskaźnik rozwoju ludzkości"
+        ],
+        "correct": "C"
+      },
+      {
+        "id": 136,
+        "question": "Outsourcing jest narzędziem zarządzania związanym z przekazywaniem części procesów i działań na zewnątrz. Alternatywny sposób zapewnienia wzrostu wydajności dzięki udoskonaleniu działalności w jednej dziedzinie, a następnie fazie wykonywania jej na rzecz innych firm, to:",
+        "options": [
+          "co-sourcing",
+          "insourcing",
+          "outsourcing usług",
+          "zlecenie funkcji"
+        ],
+        "correct": "B"
+      },
+      {
+        "id": 138,
+        "question": "Evidence-Based Medicine (EBM), uznaje się na podstawie literatury przedmiotu, że jest to:",
+        "options": [
+          "świadome, jasne i przemyślane zastosowanie najlepszego aktualnie dowodu na podstawie analiz medycznych czasopism anglojęzycznych",
+          "nieświadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących pacjentów danego oddziału",
+          "przemyślane zastosowanie eksperymentu badawczego, w celu podjęcia jak najlepszej decyzji dotyczącej konkretnego pacjenta",
+          "świadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących konkretnego pacjenta"
+        ],
+        "correct": "D"
+      },
+      {
+        "id": 139,
+        "question": "Który typ badań klinicznych charakteryzuje się najniższą wiarygodnością?",
+        "options": [
+          "badanie kazuistyczne",
+          "kliniczne badanie z randomizacją",
+          "kliniczne badanie obserwacyjne",
+          "meta-analiza"
+        ],
+        "correct": "A"
+      }
+    ]
+  }
+]
