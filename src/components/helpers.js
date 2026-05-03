@@ -1,19 +1,26 @@
 // Helper functions for flashcard app
 
+// Używamy card.uid (globalnie unikalne) jako klucza stanu jeśli istnieje,
+// w p.p. fallback na card.id (starszy format, np. fiszki)
+export function cardKey(card) {
+  return card.uid ?? card.id
+}
+
 export function buildCardStates(decks, progress) {
   const now = Date.now()
   const result = {}
   for (const deck of decks) {
     for (const card of deck.cards) {
-      const saved = progress[card.id]
-      result[card.id] = saved ?? { id: card.id, intervalDays: 0, ease: 2.5, dueDate: now, repetitions: 0 }
+      const key = cardKey(card)
+      const saved = progress[key]
+      result[key] = saved ?? { id: key, intervalDays: 0, ease: 2.5, dueDate: now, repetitions: 0 }
     }
   }
   return result
 }
 
-export function freshState(cardId) {
-  return { id: cardId, intervalDays: 0, ease: 2.5, dueDate: Date.now(), repetitions: 0 }
+export function freshState(key) {
+  return { id: key, intervalDays: 0, ease: 2.5, dueDate: Date.now(), repetitions: 0 }
 }
 
 export function shuffle(arr) {
