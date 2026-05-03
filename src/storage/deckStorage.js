@@ -1,5 +1,8 @@
-import rawDecks from '../data/tests.json'
 import rawFlashDecks from '../data/flashcards.json'
+
+// Wczytaj wszystkie JSONy z katalogu test-data eagerly
+const testDataModules = import.meta.glob('../data/test-data/*.json', { eager: true })
+const rawDecks = Object.values(testDataModules).flatMap(m => m.default ?? m)
 
 const PROGRESS_KEY = 'flashcards.progress.v1'
 
@@ -42,13 +45,25 @@ function normalizeTestDecks(inputDecks) {
   const decks = Array.isArray(inputDecks) ? inputDecks : [inputDecks]
   return decks
     .filter(Boolean)
-    .map((deck, deckIndex) => ({
-      ...deck,
-      id: deck.id ?? `test-deck-${deck.year ?? 2018}-${normalizeSession(deck.session)}-${deckIndex + 1}`,
-      year: deck.year ?? 2018,
-      session: normalizeSession(deck.session),
-      cards: Array.isArray(deck.cards) ? deck.cards : [],
-    }))
+    .map((deck, deckIndex) => {
+      const year = deck.year ?? 2018
+      const session = normalizeSession(deck.session)
+      const baseDeckId = deck.id ?? `test-deck-${deckIndex + 1}`
+      // Zawieramy rok i sesję w deckId, aby uid kart był globalnie unikalny
+      // nawet jeśli różne lata mają talię o tym samym id (np. "deck-chirurgia-ogolna")
+      const deckId = `${baseDeckId}--${year}-${session}`
+      return {
+        ...deck,
+        id: deckId,
+        year,
+        session,
+        // Każda karta dostaje globalnie unikalne uid = "deckId__cardId"
+        // dzięki temu stany kart z różnych lat/sesji nie kolidują ze sobą
+        cards: Array.isArray(deck.cards)
+          ? deck.cards.map(card => ({ ...card, uid: `${deckId}__${card.id}` }))
+          : [],
+      }
+    })
 }
 
 export function getDecks() {
