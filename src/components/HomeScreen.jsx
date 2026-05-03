@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react'
-import { buildYearDeck } from './helpers'
+import { buildYearDeck, cardKey } from './helpers'
 
-const ALL_YEARS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+const ALL_YEARS = [2018, 2020, 2021, 2022, 2023, 2024, 2025]
 const ALL_SESSIONS = [
   { id: 'spring', label: 'Wiosna' },
   { id: 'autumn', label: 'Jesien' },
@@ -9,15 +9,18 @@ const ALL_SESSIONS = [
 const TEST_COUNT = 20
 const TEST_COUNT_OPTIONS = [10, 20, 30, 50, 70, 140]
 
-export default function HomeScreen({ decks, flashDecks, cardStates, onSelectDeck }) {
+export default function HomeScreen({
+  decks, flashDecks, cardStates, onSelectDeck,
+  selectedYear, setSelectedYear,
+  selectedSession, setSelectedSession,
+  selectedMode, setSelectedMode,
+  onShowRepeats,
+}) {
   const now = Date.now()
-  const [selectedMode, setSelectedMode] = useState('srs')
   const [testCount, setTestCount] = useState(TEST_COUNT)
 
   // For year/session we only use test decks (not flash)
   const availableYears = [...new Set(decks.map(d => d.year).filter(Boolean))].sort()
-  const [selectedYear, setSelectedYear] = useState(availableYears[0] ?? ALL_YEARS[0])
-  const [selectedSession, setSelectedSession] = useState('spring')
 
   useEffect(() => {
     if (!availableYears.includes(selectedYear)) {
@@ -63,7 +66,7 @@ export default function HomeScreen({ decks, flashDecks, cardStates, onSelectDeck
 
   const dueNowTotal = visibleDecks.reduce((s, d) => {
     return s + d.cards.filter(c => {
-      const st = cardStates[c.id]
+      const st = cardStates[cardKey(c)]
       return st && st.dueDate <= now
     }).length
   }, 0)
@@ -105,6 +108,10 @@ export default function HomeScreen({ decks, flashDecks, cardStates, onSelectDeck
             <span className="stat-number highlight">{secondaryValue}</span>
             <span className="stat-label">{secondaryLabel}</span>
           </div>
+          <div className="stat-divider" />
+          <button className="repeats-btn" onClick={onShowRepeats} title="Powtarzające się pytania">
+            🔁 Powtórzenia
+          </button>
         </div>
       </header>
 
@@ -229,8 +236,8 @@ export default function HomeScreen({ decks, flashDecks, cardStates, onSelectDeck
             ) : (
               <div className="deck-grid">
                 {visibleDecks.map(deck => {
-                  const due = deck.cards.filter(c => { const s = cardStates[c.id]; return s && s.dueDate <= now }).length
-                  const seen = deck.cards.filter(c => { const s = cardStates[c.id]; return s && s.repetitions >= 1 }).length
+                  const due = deck.cards.filter(c => { const s = cardStates[cardKey(c)]; return s && s.dueDate <= now }).length
+                  const seen = deck.cards.filter(c => { const s = cardStates[cardKey(c)]; return s && s.repetitions >= 1 }).length
                   const progress = deck.cards.length > 0 ? Math.round((seen / deck.cards.length) * 100) : 0
                   return (
                     <button key={deck.id} className="deck-card" style={{ '--deck-color': deck.color }} onClick={() => onSelectDeck(deck, 'srs')}>
