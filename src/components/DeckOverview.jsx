@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import { cardKey } from './helpers'
 
 export default function DeckOverview({ deck, cardStates, onBack, onResetDeck, onRescheduleCard }) {
   const now = Date.now()
-  const enriched = deck.cards.map(c => ({ ...c, ...cardStates[c.id] }))
+  const enriched = deck.cards.map(c => ({ ...c, ...cardStates[cardKey(c)] }))
   const due = enriched.filter(c => c.dueDate <= now).length
   const learned = enriched.filter(c => c.repetitions >= 1).length
   const [confirmReset, setConfirmReset] = useState(false)
@@ -33,14 +34,14 @@ export default function DeckOverview({ deck, cardStates, onBack, onResetDeck, on
         <p className="card-list-hint">Kliknij kartę aby dodać ją do powtórki</p>
         <div className="card-list">
           {deck.cards.map(card => {
-            const state = cardStates[card.id]
+            const state = cardStates[cardKey(card)]
             const isDue = state && state.dueDate <= Date.now()
             const isMastered = state && state.repetitions >= 3
             return (
               <div
-                key={card.id}
+                key={cardKey(card)}
                 className={`card-list-row ${isMastered ? 'mastered' : isDue ? 'due' : 'upcoming'} clickable`}
-                onClick={() => onRescheduleCard(card.id)}
+                onClick={() => onRescheduleCard(cardKey(card))}
                 title="Kliknij aby ustawić do powtórki teraz"
               >
                 <div className="card-row-content">
