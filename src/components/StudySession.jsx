@@ -1,9 +1,10 @@
 import React, { useState, useCallback } from 'react'
 import { getDueCards } from '../logic/srs'
+import { cardKey } from './helpers'
 
 export default function StudySession({ deck, cardStates, onBack, onUpdateCard, onMarkWrong, onResetDeck, initialCards }) {
   const [cards] = useState(() =>
-    initialCards ?? getDueCards(deck.cards.map(c => ({ ...c, ...cardStates[c.id] })))
+    initialCards ?? getDueCards(deck.cards.map(c => ({ ...c, ...cardStates[cardKey(c)] })))
   )
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -20,7 +21,7 @@ export default function StudySession({ deck, cardStates, onBack, onUpdateCard, o
     if (!current) return
     setAnimDir(wasCorrect ? 'right' : 'left')
     setTimeout(() => {
-      wasCorrect ? onUpdateCard(current.id, true) : (onMarkWrong(current.id), setWrongCards(p => [...p, current]))
+    wasCorrect ? onUpdateCard(cardKey(current), true) : (onMarkWrong(cardKey(current)), setWrongCards(p => [...p, current]))
       setFlipped(false)
       setSelectedOption(null)
       setAnimDir(null)
