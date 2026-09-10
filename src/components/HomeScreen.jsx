@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { buildYearDeck, cardKey } from './helpers'
+import TestPdfExport from './TestPdfExport'
 
 const ALL_YEARS = [2018, 2020, 2021, 2022, 2023, 2024, 2025]
 const ALL_SESSIONS = [
@@ -296,6 +297,7 @@ export default function HomeScreen({
           </div>
         )}
       </section>
+      <TestPdfExport decks={decks} />
     </div>
   )
 }
