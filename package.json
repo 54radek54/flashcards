@@ -11,6 +11,7 @@
     "demo": "node scripts/demo-session.js"
   },
   "dependencies": {
+    "pdfmake": "^0.3.11",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
